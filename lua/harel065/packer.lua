@@ -58,4 +58,8 @@ packer.startup(function(use)
     "akinsho/bufferline.nvim",
     tag = "*",
   }
+
+  -- formatting and linting (using null-ls for the moment)
+  use "jose-elias-alvarez/null-ls.nvim" -- deprecated, change asap
+  use "MunifTanjim/prettier.nvim"
 end)

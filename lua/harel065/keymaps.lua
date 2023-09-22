@@ -9,3 +9,6 @@ keymap.set("n", "<leader>e", ":NvimTreeToggle<CR>", { noremap = true, silent = t
 
 --store
 keymap.set("n", "<leader>w", vim.cmd.write)
+
+-- prettier format
+keymap.set("n", "<leader>f", ":Prettier<CR>", { noremap = true, silent = true })
