@@ -8,7 +8,7 @@ packer.startup(function(use)
   use "wbthomason/packer.nvim"
 
   -- colorscheme
-  use "ellisonleao/gruvbox.nvim"
+  use "folke/tokyonight.nvim"
 
   -- auto closing parens and quotes
   use "windwp/nvim-autopairs"

@@ -104,11 +104,6 @@ _G.packer_plugins = {
     path = "/Users/harel065/.local/share/nvim/site/pack/packer/start/cmp-path",
     url = "https://github.com/hrsh7th/cmp-path"
   },
-  ["gruvbox.nvim"] = {
-    loaded = true,
-    path = "/Users/harel065/.local/share/nvim/site/pack/packer/start/gruvbox.nvim",
-    url = "https://github.com/ellisonleao/gruvbox.nvim"
-  },
   ["lspkind-nvim"] = {
     loaded = true,
     path = "/Users/harel065/.local/share/nvim/site/pack/packer/start/lspkind-nvim",
@@ -188,6 +183,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/harel065/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
+  },
+  ["tokyonight.nvim"] = {
+    loaded = true,
+    path = "/Users/harel065/.local/share/nvim/site/pack/packer/start/tokyonight.nvim",
+    url = "https://github.com/folke/tokyonight.nvim"
   }
 }
 
