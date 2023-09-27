@@ -38,6 +38,7 @@ packer.startup(function(use)
   use "neovim/nvim-lspconfig"   -- LSP neovim
   use "williamboman/mason.nvim" -- Package manager for lsp servers
   use "onsails/lspkind-nvim"    -- Pictograms for lsp
+  use "nvimdev/lspsaga.nvim"
 
   -- lsp autocompletion
   use "hrsh7th/cmp-nvim-lsp"
