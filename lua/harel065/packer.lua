@@ -60,6 +60,9 @@ packer.startup(function(use)
     tag = "*",
   }
 
+  -- indent line
+  use "lukas-reineke/indent-blankline.nvim"
+
   -- formatting and linting (using null-ls for the moment)
   use "jose-elias-alvarez/null-ls.nvim" -- deprecated, change asap
   use "MunifTanjim/prettier.nvim"

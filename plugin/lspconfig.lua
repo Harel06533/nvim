@@ -140,6 +140,13 @@ lspconfig.emmet_language_server.setup {
   cmd = { "emmet-language-server", "--stdio" },
 }
 
+lspconfig.jsonls.setup {
+  on_attach = on_attach,
+  capabilities = capabilities,
+  cmd = { "vscode-json-language-server", "--stdio" },
+  filetypes = { "json", "jsonc" }
+}
+
 -- css
 lspconfig.cssls.setup {
   on_attach = on_attach,
