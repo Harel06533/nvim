@@ -66,4 +66,7 @@ packer.startup(function(use)
   -- formatting and linting (using null-ls for the moment)
   use "jose-elias-alvarez/null-ls.nvim" -- deprecated, change asap
   use "MunifTanjim/prettier.nvim"
+
+  -- git integration with buffers
+  use "lewis6991/gitsigns.nvim"
 end)

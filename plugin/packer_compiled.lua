@@ -104,6 +104,11 @@ _G.packer_plugins = {
     path = "/Users/harel065/.local/share/nvim/site/pack/packer/start/cmp-path",
     url = "https://github.com/hrsh7th/cmp-path"
   },
+  ["gitsigns.nvim"] = {
+    loaded = true,
+    path = "/Users/harel065/.local/share/nvim/site/pack/packer/start/gitsigns.nvim",
+    url = "https://github.com/lewis6991/gitsigns.nvim"
+  },
   ["indent-blankline.nvim"] = {
     loaded = true,
     path = "/Users/harel065/.local/share/nvim/site/pack/packer/start/indent-blankline.nvim",
