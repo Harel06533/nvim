@@ -12,7 +12,7 @@ lspsaga.setup({
     enable = true
   },
   lightbulb = {
-    enable = true
+    enable = false
   },
   outline = {
     layout = 'float'
