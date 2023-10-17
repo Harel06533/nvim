@@ -25,7 +25,7 @@ buffline.setup {
       bg = '#191c29'
     },
     buffer_selected = {
-      fg = '#fdf6e3',
+      fg = '#2cc3df',
       bold = true,
     },
     fill = {
