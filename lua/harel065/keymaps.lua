@@ -16,3 +16,6 @@ keymap.set("n", "<leader>f", ":Prettier<CR>", { noremap = true, silent = true })
 -- copy and paste to the system clipboard
 keymap.set({ "n", "v" }, "<leader>y", '"+y')
 keymap.set({ "n", "v" }, "<leader>p", '"+p')
+
+-- close current opened buffer
+keymap.set("n", "<leader>qb", vim.cmd.bdelete);
