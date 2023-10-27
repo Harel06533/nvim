@@ -8,7 +8,8 @@ packer.startup(function(use)
   use("wbthomason/packer.nvim")
 
   -- colorscheme
-  use("folke/tokyonight.nvim")
+  --use("folke/tokyonight.nvim")
+  use({ "rose-pine/nvim", as = "rose-pine" })
 
   -- auto closing parens and quotes
   use("windwp/nvim-autopairs")
@@ -26,7 +27,7 @@ packer.startup(function(use)
   use("nvim-tree/nvim-tree.lua")
   use("nvim-tree/nvim-web-devicons")
 
-  -- status-line (lualine)
+  -- status-line (lualine) also using it as bufferline
   use("nvim-lualine/lualine.nvim")
 
   -- treesitter
@@ -56,12 +57,6 @@ packer.startup(function(use)
     "L3MON4D3/LuaSnip",
     tag = "v2.*",
     run = "make install_jsregexp",
-  })
-
-  -- tabline
-  use({
-    "akinsho/bufferline.nvim",
-    tag = "*",
   })
 
   -- indent line

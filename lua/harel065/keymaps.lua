@@ -15,4 +15,6 @@ keymap.set({ "n", "v" }, "<leader>y", '"+y')
 keymap.set({ "n", "v" }, "<leader>p", '"+p')
 
 -- close current opened buffer
-keymap.set("n", "<leader>qb", vim.cmd.bdelete);
+keymap.set("n", "<leader>qb", vim.cmd.bdelete)
+
+-- navigate buffers with

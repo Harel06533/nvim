@@ -1,10 +1,19 @@
-local status, tokyonight = pcall(require, "tokyonight")
+local color_plugin = "rose-pine"
+local status, colorscheme = pcall(require, color_plugin)
 if not status then
-  print("tokyonight missing")
+  print("colorscheme missing")
   return
 end
 
+colorscheme.setup({
+  variant = "moon",
+})
+
+vim.cmd("colorscheme rose-pine")
+
+--[[
 require("tokyonight").setup({
+
   -- your configuration comes here
   -- or leave it empty to use the default settings
   style = "storm",        -- The theme comes in three styles, `storm`, `moon`, a darker variant `night` and `day`
@@ -40,3 +49,4 @@ require("tokyonight").setup({
   on_highlights = function(highlights, colors) end,
 })
 vim.cmd [[colorscheme tokyonight]]
+--]]
